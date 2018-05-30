@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-/*fonts*/
-@import url(https://fonts.googleapis.com/css?family=Lato);
-/* font end */
-
 /*global*/
 .nav ul li a:hover {
   background-color: #ffb424;
@@ -41,7 +37,6 @@ h2 {
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
     filter: grayscale(82%);
     position: relative;
     z-index: -10;
@@ -343,7 +338,6 @@ blockquote q span {
 /*footer*/
 footer {
   background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/footer-bg_zps1imhqalh.jpg");
-  -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
 }
@@ -397,12 +391,5 @@ footer h2 {
  blockquote {
    color: blue;
    font-size: 1.5rem
-
  }
-}
-
-@media only screen and (max-width: 768px) {
- 
-@media only screen and (min-width: 992px){
-
 }
