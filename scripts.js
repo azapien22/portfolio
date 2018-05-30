@@ -32,8 +32,8 @@ function splitWords() {
         delay: getRandom(500,3300),
         fill: 'forwards'
       } 
-     )
-    })
+     );
+    });
   }
   
   
@@ -47,7 +47,7 @@ function splitWords() {
     //parallax effect for banner
     (function() {
       var posY;
-      var image = document.getElementById('parallax');;
+      var image = document.getElementById('parallax');
       function parallax() {
           posY = window.pageYOffset;
           image.style.top = posY * 0.9 + 'px';
